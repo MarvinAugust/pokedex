@@ -1,0 +1,181 @@
+@font-face {
+  font-family: "poke";
+  src: url(../Ketchum.otf)
+}
+
+@font-face {
+  font-family: "oldPoke";
+  src: url(./Pokemon\ Classic.ttf)
+}
+
+.cards {
+  text-align: center;
+}
+
+.wrapper {
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(225,46,37,1);
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 7px;
+}
+
+.wrapper:hover {
+  -webkit-box-shadow: 0px 20px 0px -10px #ff0000, 0px -20px 0px -10px #FFFFFF, 20px 0px 0px -10px #FFFFFF, -20px 0px 0px -10px #FFFFFF, 0px 0px 0px 10px black, 1px 2px 7px 12px rgba(27,0,255,0); 
+  box-shadow: 0px 20px 0px -10px #FFFFFF, 0px -20px 0px -10px #FFFFFF, 20px 0px 0px -10px #FFFFFF, -20px 0px 0px -10px #FFFFFF, 0px 0px 0px 10px black, 1px 2px 7px 12px rgba(27,0,255,0);
+    ;
+    border-radius: 0px;
+}
+
+.wrapper .pic {
+  border-radius: 25px;
+  background: radial-gradient(circle, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 52%, rgba(225,46,37,1) 59%);
+}
+
+.wrapper .poke {
+  background: radial-gradient(circle, rgba(255,255,255,1) 38%, rgba(225,46,37,1) 67%);
+  font-family: "poke";
+  }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  background-image: url(./pokeb.png);
+  background-size: cover;
+  color: white;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-color: black;
+  border-width: 10px;
+}
+
+header img {
+  -webkit-box-shadow: 0px 20px 0px -10px #FFFFFF, 0px -20px 0px -10px #FFFFFF, 20px 0px 0px -10px #FFFFFF, -20px 0px 0px -10px #FFFFFF, 0px 0px 0px 10px black, 1px 2px 7px 12px rgba(27,0,255,0); 
+box-shadow: 0px 20px 0px -10px #FFFFFF, 0px -20px 0px -10px #FFFFFF, 20px 0px 0px -10px #FFFFFF, -20px 0px 0px -10px #FFFFFF, 0px 0px 0px 10px black, 1px 2px 7px 12px rgba(27,0,255,0);
+  ;
+
+}
+
+@media only screen and (max-width: 950px) {
+  header {
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    background-image: none;
+    color: black;
+    background-color: rgba(225,46,37,1);
+    margin: auto;
+    }
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1250px) {
+  header {
+    display: flex;
+  justify-content: center;
+  font-size: 30px;
+  background-image: url(./pokeba.png);
+  background-size: cover;
+  color: white;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 950px) {
+  header {
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    background-image: none;
+    color: black;
+    background-color: rgba(225,46,37,1);
+    margin-left: 20px;
+    margin-right: 20px;    
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+}
+
+
+
+.stats {
+  display: block;
+  margin-right: 200px;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: "oldPoke";
+  -webkit-text-stroke: 1px black;
+
+}
+
+@media only screen and (max-width: 950px) {
+  .stats {
+    text-align: center;
+    align-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+
+.name {
+  font-family: 'poke';
+  font-size: 90px;
+  color: #ffcd00;
+  -webkit-text-stroke: 5px #1318CE;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-style: outset;
+  border-color: gold;
+  border-radius: 10px;
+  border-width: 7px;
+  box-shadow: 10px 5px 5px black;
+  background-color: white;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+header img {
+  margin-top: 80px;
+  /* margin-right: 260px; */
+  margin-left: 250px;
+}
+
+@media only screen and (max-width: 950px) {
+  .name {
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    margin-left: 0px;
+    background-color: white;
+    border-radius: 25px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  header img {
+    display: inline-block;
+    text-align: center;
+    border-style: outset;
+    border-color: gold;
+    border-radius: 10px;
+    border-width: 7px;
+    box-shadow: 10px 5px 5px black;
+    background-color: white;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-left: 0px !important;
+  }
+}
